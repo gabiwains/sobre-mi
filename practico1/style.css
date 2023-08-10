@@ -1,0 +1,71 @@
+html{
+    background-image:url(img/fondo1.png);
+}
+body{
+    align-items: center;
+    margin: auto;
+}
+#principal{
+    margin: auto;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    
+}
+#hijo{
+    display: inline-block;
+    padding: 5px;
+    background-color: darkcyan;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    margin-top: 10%;
+    border-radius: 15px;
+    border: 2px solid blue;
+}
+h2 {
+    text-align: center;
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    border-radius: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#boton{
+    background-color: green;
+    color: aliceblue;
+    margin-right: 30px;
+    width: 40%;
+}
+#boton1{
+    background-color: red;
+    color: aliceblue;
+    width: 40%;
+}
+#res{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    color:cornsilk;
+}
+#menu{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    height: 10%;
+}
+#resultado{
+    font-size: x-large;
+    color: cornsilk;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 10px;
+}
+#num1{
+    width: 300px;
+    height: 20px;
+}
+#num2{
+    width: 300px;
+    height: 20px;
+}
